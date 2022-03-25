@@ -40,7 +40,7 @@ export function symbolsReplace(message) {
 			message = message.slice(0, count) + '_' + message.slice(count + 1);
 		}
 	}
-	while (count < message.length - 1)
+	while (count < message.length - 1) 
 	return message;
 }
 
